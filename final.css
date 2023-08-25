@@ -1,0 +1,409 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Helvetica;
+}
+
+/* navigasi */
+.block-Navigasi {
+  background-color: #f1f3ff;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 1;
+}
+.block-Navigasi .section-Kiri {
+  width: 100px;
+  height: 34px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+.block-Navigasi .section-Kanan {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.block-Navigasi .section-Kanan a {
+  text-decoration: none;
+  color: black;
+}
+.block-Navigasi .section-Kanan .komponen-Kanan {
+  background-color: green;
+  height: 30px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+}
+/* akhir navigasi */
+
+/*awal blockheader */
+.blockHeader {
+  width: 100%;
+  display: flex;
+  margin: 70px auto;
+  background-color: #f1f3ff;
+}
+.blockHeader .sectionKiri {
+  width: 100%;
+  padding: 50px;
+}
+.blockHeader .sectionKiri h2 {
+  font-size: 45px;
+  margin-top: 4rem;
+}
+.blockHeader .sectionKiri p {
+  margin-right: 60px;
+  font-size: 20px;
+}
+.blockHeader .sectionKiri button {
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #5cb85f;
+  color: white;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.blockHeader .sectionKanan {
+  width: 100%;
+  position: relative;
+  margin-top: 190px;
+}
+.blockHeader .sectionKanan img {
+  /* background-size: cover; */
+  width: 704px;
+  height: 407px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* akhir blockHeader */
+
+/* awal blockContent */
+.blockContent {
+  width: 100%;
+  display: flex;
+  /* padding-bottom: 200px; */
+}
+.blockContent .sectionkiri {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blockContent .sectionKanan {
+  width: 100%;
+}
+.blockContent .sectionKanan h1 {
+  font-size: 44px;
+}
+.blockContent .sectionKanan p {
+  font-size: 20px;
+  margin-right: 100px;
+}
+.blockContent .komponenKanan p {
+  gap: 20px;
+  display: flex;
+  font-size: 21px;
+}
+.blockContent .komponenKanan img {
+  width: 30px;
+}
+/* akhir blockContent */
+
+/* awal whyus */
+.blockWhyus {
+  width: 100%;
+  height: 100%;
+  /* margin-top: 2rem; */
+  margin-bottom: 6rem;
+}
+.blockWhyus .sectionAtas {
+  margin-left: 2rem;
+}
+.blockWhyus .sectionAtas h2 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+.blockWhyus .sectionBawah {
+  display: flex;
+  margin-top: 2%;
+  gap: 4rem;
+  padding: 0 2rem;
+}
+.blockWhyus .sectionBawah .card-satu,
+.blockWhyus .sectionBawah .card-dua,
+.blockWhyus .sectionBawah .card-tiga,
+.blockWhyus .sectionBawah .card-empat {
+  border: 1px solid #d0d0d0;
+  border-radius: 0.4rem;
+  padding: 1rem;
+}
+
+.blockWhyus .sectionBawah img {
+  margin-bottom: 1rem;
+}
+.blockWhyus .sectionBawah h2 {
+  margin-bottom: 1rem;
+}
+/* akhir whyus */
+
+/* awal tesi */
+.tesi {
+  width: 100%;
+  height: 300px;
+}
+.tesi .sectionAtas {
+  text-align: center;
+}
+.tesi .sectionBawah {
+  width: 100%;
+  /* height: 500px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tesi .carousel-item {
+  width: 100%;
+  height: 100%;
+}
+.tesi .bungkusCard {
+  background-color: #f1f3ff;
+  width: 50%;
+  height: 100% !important;
+  display: flex;
+  margin: auto;
+  border-radius: 1rem;
+}
+.tesi .komponenKiri {
+  padding: 2rem 2rem;
+}
+.tesi .bungkusCard .komponenKanan {
+  padding-left: 2rem;
+}
+.butonWrap {
+  width: 100%;
+  gap: 1rem;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.butonLeft,
+.butonRight {
+  position: relative !important;
+  width: 40px !important;
+  height: 40px;
+  border-radius: 100%;
+}
+
+/* akhir tesi */
+
+/* awal sewa */
+.blockSewa {
+  background-color: blue;
+  color: white;
+  width: 80%;
+  height: 20.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem auto;
+  border-radius: 0.8125rem;
+  background: var(--primary-dark-blue-04, #0d28a6);
+}
+.blockSewa .sectionSewa {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.blockSewa .sectionSewa button {
+  display: inline-flex;
+  padding: 0.5rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.125rem;
+  color: white;
+  background: var(--primary-lime-green-04, #5cb85f);
+  border: none;
+}
+/* akhir sewa */
+
+/* awal accrodion */
+.accor {
+  display: flex;
+  width: 100%;
+  padding: 0 4rem;
+}
+.accor .sectionKiri {
+  width: 50%;
+}
+.accor .sectionKanan {
+  width: 50%;
+}
+.accor .accordion-item {
+  /* border: 1px solid black; */
+  border: none;
+}
+.accor .accordion-button {
+  border-radius: 10px !important;
+  margin: 10px;
+  border: 1px solid #d4d4d4;
+}
+/* akhir accordion */
+
+/* awal blockFooter */
+.blockFooter {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.875rem;
+  width: 100%;
+  margin-top: 5%;
+}
+
+/* akhir blockFooter */
+
+/* responsive mobile */
+
+@media screen and (max-width: 360px) {
+  .section-Kanan,
+  .section-Kiri,
+  .komponen-Kanan {
+    display: none !important;
+  }
+  .offcanvas {
+    width: 50% !important;
+  }
+  .blockHeader {
+    margin: 0;
+  }
+  .navbar {
+    background-color: #f1f3ff !important;
+  }
+  .nav-link-btn {
+    background-color: #5cb85f;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+  }
+  .blockHeader {
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 0 !important; */
+  }
+  .blockHeader .sectionKiri {
+    padding-left: 1rem;
+  }
+  .blockHeader .sectionKiri p {
+    margin-right: -60px !important;
+    font-size: 1.3rem;
+  }
+  .blockHeader .sectionKanan img {
+    width: 360px !important;
+    height: 400px !important;
+    position: relative !important;
+    margin-top: -190px !important;
+  }
+  .blockContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+  .blockContent .sectionKanan {
+    padding-left: 2rem;
+    width: 100%;
+    /* margin-top: 50rem !important; */
+    /* width: 50% !important; */
+  }
+  .blockContent .sectionKanan h1 {
+    font-size: 1.6rem;
+  }
+  .blockContent .sectionKanan p {
+    margin-right: 0px;
+  }
+  .blockContent .komponenKanan img {
+    width: 30px !important;
+    height: 50px;
+  }
+  .blockWhyus {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .blockWhyus .sectionAtas {
+    text-align: center;
+  }
+  .blockWhyus .sectionBawah {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .tesi {
+    display: flex;
+    flex-direction: column;
+  }
+  .bungkusCard {
+    display: flex;
+    flex-direction: column;
+    width: 80% !important;
+    text-align: center;
+  }
+  .bungkusCard p,
+  h4 {
+    text-align: left;
+  }
+  .butonWrap {
+    margin-top: 11rem;
+  }
+  .blockSewa .sectionSewa {
+    text-align: center;
+    width: 90%;
+  }
+  .accor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: #5cb85f; */
+    margin: 0;
+    padding: 0;
+  }
+  .accor .sectionKiri {
+    width: 100%;
+    margin: 0;
+    /* padding-left: 2rem; */
+    text-align: center;
+    /* background-color: red; */
+  }
+  .accor .sectionKiri h1 {
+    /* text-align: center; */
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .accor .sectionKiri p {
+    font-size: 0.8rem;
+  }
+  .accor .sectionKanan {
+    width: 80%;
+    /* display: none; */
+  }
+  .blockFooter {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+}
